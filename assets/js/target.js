@@ -29,7 +29,7 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-// chat para target
+// chat para focus
     (function(d, w, c) {
 		w.ChatraID = 'a5HQaZLstnJNKXS69';
 		var s = d.createElement('script');
