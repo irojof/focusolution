@@ -37,7 +37,7 @@
         		</button>
         		<div class="logo-container">
 	                <div class="logo">
-	                    <img src="assets/img/focus.png">
+	                    <img src="assets/img/focusb.png">
 	                </div>
 				</div>
         	</div>
@@ -82,7 +82,7 @@
     </nav>
 
     <div class="wrapper">
-        <div class="header header-filter" style="background-image: url('assets/img/bg4.jpeg');">
+        <div class="header header-filter" style="background-image: url('assets/img/fondo.jpg');">
             <div class="container">
                 <div class="row">
 					<div class="col-md-12">
@@ -168,6 +168,7 @@
 	                    <div class="col-md-8 col-md-offset-2">
 	                        <h2 class="title" >Hablar sobre nuestros servicios</h2>
 	                        <h5 class="description">Aqui se escribe una version detallada de los servicios y productos que vamos a ofrecer </h5>
+							
 	                    </div>
 	                </div>
 
@@ -180,6 +181,13 @@
 									</div>
 									<h4 class="info-title">Creacion de paginas web</h4>
 									<p>Aqui escribir los detalles que se haran. Escribir algunas lineas. Un pequeno parrafo es suficiente.</p>
+									<!-- Button trigger modal -->
+									<button class="btn btn-danger" data-toggle="modal" data-target="#myModal">
+									  Ver planes
+									</button>
+
+									
+									
 								</div>
 		                    </div>
 		                    <div class="col-md-4">
@@ -239,9 +247,6 @@
 											<button class="btn btn-danger btn-raised" id="btn_ok" name="btn_ok">
 												Aceptar
 											</button>
-											<button class="btn btn-info" href="https://m.me/XYZ">
-												Envíanos un mensaje de Facebook
-											</button>
 										</div>
 									</div>
 								</div>
@@ -291,6 +296,37 @@
 	        </div>
 	    </footer>
 
+	</div>
+	<!-- Modal Core -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h4 class="modal-title" id="myModalLabel">Planes de paginas web</h4>
+				</div>
+				<div class="modal-body col-md-12">
+					<div class="col-md-4 text-center">
+						<h3>Plan Basico</h3>
+						<img src="assets/img/plantillapeq.jpg" width="80%"></img>
+						<button type="button" class="btn btn-danger"> Contratar </button>
+					</div>
+					<div class="col-md-4 text-center">
+						<h3>Plan Medio</h3>
+						<img src="assets/img/plantillapeq.jpg" width="80%"></img>
+						<button type="button" class="btn btn-danger"> Contratar </button>
+					</div>
+					<div class="col-md-4 text-center">
+						<h3>Plan Pro</h3>
+						<img src="assets/img/plantillapeq.jpg" width="80%"></img>
+						<button type="button" class="btn btn-danger"> Contratar </button>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger btn-simple" data-dismiss="modal"> Cerrar ventana </button>
+				</div>
+			</div>
+		</div>
 	</div>
 </body>
 
